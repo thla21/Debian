@@ -93,3 +93,8 @@ Um ponto muito importante da instalação é neste momento onde é preciso insta
 A demais opções são padrão e no final basta dar um reboot para o upgrade.
 
 ```shell
+reboot
+```
+
+Tome uma xicará de café e desfrute do nono Debian 12! :)
+
