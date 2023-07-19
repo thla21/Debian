@@ -88,7 +88,7 @@ Na opção para atualizar o ssh mantenha a versão atual instalada :
 
 Um ponto muito importante da instalação é neste momento onde é preciso instalar o GRUB que é o bootloader padrão para sistemas Linux:
 
-[![imagem5.png](https://i.postimg.cc/pTdK0LGF/imagem5.png)](https://postimg.cc/VS3Svmcf)
+[![imagem5.png](https://i.postimg.cc/hPtW7jJy/imagem5.png)](https://postimg.cc/mhJ6vTyC)
 
 A demais opções são padrão e no final basta dar um reboot para o upgrade.
 
