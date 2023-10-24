@@ -71,7 +71,7 @@ apt upgrade
 apt full-upgrade
 ```
 
-Removeremos pacotes não utilizados pelo novo sistema, neste caso foi usao do purge para remoção completa:
+Removeremos pacotes não utilizados pelo novo sistema, neste caso foi usado purge para remoção completa:
 
 ```shell
 apt autopurge
