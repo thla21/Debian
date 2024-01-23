@@ -40,3 +40,4 @@ Para montar seu pendrive bootavél eu particularmente gosto do [Ventoy](https://
 Iniciando o boot da sua iso.
 
 Selecione: **Graphical Install**
+
