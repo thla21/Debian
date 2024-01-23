@@ -24,5 +24,5 @@ main Consiste em pacotes compatíveis com DFSG (Debian Free Software Guidelines)
 
 **non-free-firmware** Contém pacotes de firmware não livres em nossa mídia oficial (imagens do instalador). Os binários de firmware incluídos normalmente serão ativados por padrão quando o sistema determinar que eles são necessários, mas, sempre que possível, incluiremos maneiras para os usuários desativarem isso na inicialização.
 
-Um grande passo também é que contamos agora com o [Kernel 6.1](https://diolinux.com.br/sistemas-operacionais/linux/kernel-61.html).
+Um grande passo também é que contamos agora com o [Kernel 6.1](https://diolinux.com.br/sistemas-operacionais/linux/kernel-61.html).<br>
 Leia mais aqui: [Quais as novidades no Debian 12](https://www.debian.org/releases/bookworm/amd64/release-notes/ch-whats-new.pt-br.html)
