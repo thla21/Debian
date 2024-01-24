@@ -41,3 +41,22 @@ Iniciando o boot da sua iso.
 
 Selecione: **Graphical Install**
 
+[![Debian1.png](https://i.postimg.cc/DzCvXGFF/Debian1.png)](https://postimg.cc/d7ycMLLS)
+
+### Portuguese (Brazil) – Portugues do Brasil
+
+[![Debian2.png](https://i.postimg.cc/wBxxMVC0/Debian2.png)](https://postimg.cc/ZWgzDrKd)
+
+### Brasil
+
+[![Debian3.png](https://i.postimg.cc/W1wbsKHd/Debian3.png)](https://postimg.cc/nXMtkdZx)
+
+
+### Português Brasileiro
+
+[![Debian4.png](https://i.postimg.cc/m2Mg5h3N/Debian4.png)](https://postimg.cc/ppWv9W6p)
+
+Neste momento ele irá identificar sua conexão de rede, e receber seus IP automaticamente via DHCP.
+
+[![Debian5.png](https://i.postimg.cc/qBW7w2Kv/Debian5.png)](https://postimg.cc/9ztVFR16)
+
