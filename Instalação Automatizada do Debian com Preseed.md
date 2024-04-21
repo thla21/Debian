@@ -1,5 +1,7 @@
 # Instalação Automatizada do Debian com Preseed
 
+<a href="https://imgbox.com/iuZOxMKd" target="_blank"><img src="https://images2.imgbox.com/83/60/iuZOxMKd_o.png" alt="imgbox"/></a> 
+
 Em um ambiente de Tecnologia da Informação, a eficiência na implantação e manutenção de sistemas operacionais é crucial. Imagine ter que instalar o Debian em várias máquinas,
 uma tarefa que pode se tornar morosa e propensa a erros se realizada manualmente em cada dispositivo. É nesse contexto que o Preseed, uma ferramenta de instalação automatizada,
 surge como uma solução valiosa para simplificar e agilizar esse processo.
@@ -145,3 +147,91 @@ d-i netcfg/choose_interface select auto
 
 4 - Leitura de Mídia de Instalação Adicional
 Estas linhas indicam que a instalação não deve perguntar sobre a leitura de mídia de instalação adicional, selecionando false não será perguntado.
+
+```
+d-i apt-setup/cdrom/set-first boolean false
+d-i apt-setup/cdrom/set-next boolean false
+```
+5 - Configuração do Espelho de Rede
+Configure o espelho de rede para acelerar o processo de download:
+
+```
+d-i apt-setup/use_mirror boolean true
+d-i mirror/country string BR
+d-i mirror/http/hostname string http.deb.debian.org
+d-i mirror/http/directory string /debian
+d-i mirror/http/proxy string
+d-i apt-setup/services-select security
+
+# Adicionando repositórios de segurança
+d-i apt-setup/services-select security
+d-i apt-setup/security_host string security.debian.org
+d-i apt-setup/security_path string /debian-security
+```
+
+Estas linhas configuram o espelho de rede para acelerar o processo de download durante a instalação, o sistema utilizará os repositórios de segurança do Debian para garantir que os pacotes do sistema estejam atualizados com as últimas correções de segurança disponíveis.
+
+6 - Habilitação de Repositórios Contrib e Non-Free
+Descomente essas linhas se precisar dos repositórios contrib e non-free:
+
+```
+#d-i apt-setup/contrib boolean true
+#d-i apt-setup/non-free boolean true
+```
+
+Isso permite a execução de comandos que dependem desses repositórios, como firmware e drivers.
+
+7 - Configuração de Contas (Root e Usuário Normal)
+Configure a conta root e uma conta de usuário normal:
+
+```
+# Configuração de conta root
+d-i passwd/root-login boolean true
+d-i passwd/root-password-crypted password $6$D/.W5uDQUlGuPf/g$0/j0/jeBvbsNukkbIOOI1Y3EL37KIVz8fxpFIbbx7HF5EjX/2whBhpzCuwmlL2fPUl8rL165g8RlIHkRs.quw.
+# Configuração de conta de usuário normal
+d-i passwd/make-user boolean true
+d-i passwd/user-fullname string helpdesk
+d-i passwd/username string helpdesk
+d-i passwd/user-password-crypted password $6$D/.W5uDQUlGuPf/g$0/j0/jeBvbsNukkbIOOI1Y3EL37KIVz8fxpFIbbx7HF5EjX/2whBhpzCuwmlL2fPUl8rL165g8RlIHkRs.quw.
+```
+
+Estas linhas configuram a conta do usuário root e de um usuário chamado helpdesk, permitindo o login e fornecendo uma senha criptografada.
+
+8 - Configuração de timezone
+
+```
+d-i clock-setup/utc boolean true
+d-i time/zone string America/Sao_Paulo
+d-i clock-setup/ntp boolean true
+```
+
+9 - Particionamento de disco
+
+```
+d-i partman-auto/method string regular
+d-i partman/confirm_nooverwrite boolean true
+d-i partman/choose_partition select finish
+d-i partman/confirm boolean true
+```
+
+Essas configurações, em conjunto, automatizam o processo de particionamento, tornando-o mais simples, adequando-se ao cenário em que desejamos utilizar todo o disco de forma automática e sem a necessidade de interação do usuário durante essa etapa.
+
+Por fim definimos um conjunto de pacotes a ser instalado, incluindo pacote para termos um desktop grafico
+
+```
+tasksel tasksel/first multiselect standard, ssh-server, gnome-desktop
+
+d-i pkgsel/upgrade select full-upgrade
+```
+
+Essa linha configura a opção de atualização de pacotes durante a instalação. O valor full-upgrade indica que o sistema deve realizar uma atualização completa, incluindo a atualização de pacotes já instalados para as versões mais recentes disponíveis.
+
+## Disponibilização do Arquivo Preseed
+
+O arquivo Preseed pode ser disponibilizado de diversas maneiras. Pode ser incluído em um meio de instalação físico (por exemplo, em um pendrive), hospedado em um servidor web acessível durante a instalação, ou até mesmo incorporado diretamente em uma imagem de instalação personalizada, e inclusive uma orientação do local do arquivo no dhcp.
+
+O administrador inicia o processo de instalação do Debian nas máquinas desejadas.
+Durante o início, o instalador do Debian tem a opção de instalação automatizada onde ele procura por um arquivo Preseed e, se encontrado, utiliza as configurações contidas nele para guiar a instalação.
+
+<a href="https://imgbox.com/CR6BmgvX" target="_blank"><img src="https://images2.imgbox.com/c8/89/CR6BmgvX_o.png" alt="imgbox"/></a> 
+
