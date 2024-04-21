@@ -251,6 +251,6 @@ $ debconf-get-selections --installer >> file
 $ debconf-get-selections>> file
 ```
 
---installer deve criar um arquivo com as respostas fornecidas na instalação atual, sem este parametro o arquivo gerado contera todas as opçoes de configuração.
+*--installer* deve criar um arquivo com as respostas fornecidas na instalação atual, sem este parametro o arquivo gerado contera todas as opçoes de configuração.
 
 Outro elemento que pode ser util caso nao localize um parametro na docupentação e tentar inspecionalo no momento que é requisitado a resposta na instalação com ctrl +alt +F4.
