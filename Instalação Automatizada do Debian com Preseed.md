@@ -235,3 +235,22 @@ Durante o início, o instalador do Debian tem a opção de instalação automati
 
 <a href="https://imgbox.com/CR6BmgvX" target="_blank"><img src="https://images2.imgbox.com/c8/89/CR6BmgvX_o.png" alt="imgbox"/></a> 
 
+Ao adotar o Preseed, os administradores de sistemas podem economizar tempo, reduzir erros humanos e garantir uma instalação consistente do Debian em ambientes com várias máquinas. Essa abordagem é particularmente útil em cenários onde a implantação automatizada é essencial, como em servidores, clusters e ambientes de nuvem.
+
+## Dica:
+
+Uma otima maneira de contruir seu preseed é utilizar uma instalação existente.
+
+Imagine que foi realizado uma instalação conforme as especiicações que voce precisa, apos isso e possivel recuperar todas as respostas que foram dadas durante a instalação com o comando debconf-get-selections do pacote debconf-utils para despejar o banco de dados debconf e o banco de dados cdebconf do instalador.
+
+Exemplo:
+
+```
+$ echo "#_preseed_V1" > file
+$ debconf-get-selections --installer >> file
+$ debconf-get-selections>> file
+```
+
+--installer deve criar um arquivo com as respostas fornecidas na instalação atual, sem este parametro o arquivo gerado contera todas as opçoes de configuração.
+
+Outro elemento que pode ser util caso nao localize um parametro na docupentação e tentar inspecionalo no momento que é requisitado a resposta na instalação com ctrl +alt +F4.
