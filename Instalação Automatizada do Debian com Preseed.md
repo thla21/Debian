@@ -112,12 +112,36 @@ d-i debian-installer/exit/poweroff boolean true
 
 Agora vamos abordar os principais blocos de configuração:
 
-1. Configurações de Localização e Idioma
+1 - Configurações de Localização e Idioma
 Começamos definindo as configurações de localização e idioma para garantir uma experiência de usuário adequada. Usei as seguintes linhas no arquivo preseed.cfg:
 
-``d-i localechooser/shortlist select BR
+```
+d-i localechooser/shortlist select BR
 d-i localechooser/languagelist select pt_BR
 d-i debian-installer/country string BR
 d-i debconf/language string pt_BR
 d-i debian-installer/locale select pt_BR.UTF-8
 ```
+
+Essas linhas configuram as opções relacionadas à localização e ao idioma durante a instalação. Definem o idioma padrão para o Brasil e a localização para o Português do Brasil (pt_BR)
+
+2 - Configuração do Teclado
+Definimos as configurações do teclado para corresponder às necessidades regionais:
+
+```
+d-i keyboard-configuration/xkb-keymap select br
+d-i keyboard-configuration/layoutcode string br
+d-i keyboard-configuration/toggle select No toggling
+```
+
+Configuramos as opções relacionadas ao layout do teclado durante a instalação, definindo o layout para o Brasil (br) e desativando a troca de layout (No toggling).
+
+3 - Configuração de Rede
+Esta linha indica que a instalação deve escolher automaticamente a interface de rede. Permitindo que o DHCP defina o hostname
+
+```
+d-i netcfg/choose_interface select auto
+```
+
+4 - Leitura de Mídia de Instalação Adicional
+Estas linhas indicam que a instalação não deve perguntar sobre a leitura de mídia de instalação adicional, selecionando false não será perguntado.
