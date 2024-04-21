@@ -19,10 +19,10 @@ Além da possibilidade de automatizar as respostas para as perguntas do instalad
 
 Onde encontrar informações sobre o preseeding?
 
-[Guia de Instalação do Debian GNU/Linux: Apêndice B - Automatizar a instalação utilizando 'preseeding'](https://www.debian.org/releases/stable/amd64/apb.pt.html)
-[O Manual do Administrador Debian: 12.3 - Instalação Automatizada](https://debian-handbook.info/browse/pt-BR/stable/sect.automated-installation.html)
-[Debian Wiki: Preseeding d-i](https://wiki.debian.org/DebianInstaller/Preseed)
-[Debian Wiki: Modifying an installation ISO image to preseed the installer from its initrd](https://wiki.debian.org/DebianInstaller/Preseed/EditIso)
+[Guia de Instalação do Debian GNU/Linux: Apêndice B - Automatizar a instalação utilizando 'preseeding'](https://www.debian.org/releases/stable/amd64/apb.pt.html)<br>
+[O Manual do Administrador Debian: 12.3 - Instalação Automatizada](https://debian-handbook.info/browse/pt-BR/stable/sect.automated-installation.html)<br>
+[Debian Wiki: Preseeding d-i](https://wiki.debian.org/DebianInstaller/Preseed)<br>
+[Debian Wiki: Modifying an installation ISO image to preseed the installer from its initrd](https://wiki.debian.org/DebianInstaller/Preseed/EditIso)<br>
 [Debian Wiki: Remastering a Debian installation ISO or a CD/DVD imag](https://wiki.debian.org/DebianInstaller/Modify/CD)
 
 ## Métodos de preseeding
@@ -63,8 +63,8 @@ Neste caso, ele deverá ter o nome `preseed.cfg`.
 
 A melhor forma de começar um arquivo de preseed é editando as opções de um arquivo de exemplo.
 
-[Exemplo do preseed.cfg:](https://www.debian.org/releases/buster/example-preseed.txt) 
-[Descrição detalhada das opções:](https://www.debian.org/releases/stable/amd64/apbs04.pt.html)
+[Exemplo do preseed.cfg](https://www.debian.org/releases/buster/example-preseed.txt) <br>
+[Descrição detalhada das opções](https://www.debian.org/releases/stable/amd64/apbs04.pt.html)
 
 ## Opções do preseed
 
