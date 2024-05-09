@@ -41,127 +41,127 @@ Iniciando o boot da sua iso.
 
 Selecione: **Graphical Install**
 
-[![Debian1.png](https://i.postimg.cc/DzCvXGFF/Debian1.png)](https://postimg.cc/d7ycMLLS)
+![Debian1](https://github.com/thla21/Debian/assets/62508225/df44f8f5-49e5-4be2-afa7-e9528e2a3597)
 
 ### Portuguese (Brazil) – Portugues do Brasil
 
-[![Debian2.png](https://i.postimg.cc/wBxxMVC0/Debian2.png)](https://postimg.cc/ZWgzDrKd)
+![Debian2](https://github.com/thla21/Debian/assets/62508225/7b4ee101-6a67-4648-ab3e-de506573ea79)
 
 ### Brasil
 
-[![Debian3.png](https://i.postimg.cc/W1wbsKHd/Debian3.png)](https://postimg.cc/nXMtkdZx)
+![Debian3](https://github.com/thla21/Debian/assets/62508225/9f891094-25a0-4ad6-af79-e6cd2edf0e08)
 
 
 ### Português Brasileiro
 
-[![Debian4.png](https://i.postimg.cc/m2Mg5h3N/Debian4.png)](https://postimg.cc/ppWv9W6p)
+![Debian4](https://github.com/thla21/Debian/assets/62508225/820d0512-5500-40c0-bd45-347a5cb639de)
 
 Neste momento ele irá identificar sua conexão de rede, e receber seus IP automaticamente via DHCP.
 
-[![Debian5.png](https://i.postimg.cc/qBW7w2Kv/Debian5.png)](https://postimg.cc/9ztVFR16)
+![Debian5](https://github.com/thla21/Debian/assets/62508225/34a6117b-cbd6-4bb9-91cb-61f468cac5c9)
 
 No entanto se sua rede não estiver configurada para entregar IP automaticamente, ira apresentar uma mensagem dizendo que a configuração falhou:
 
-[![Debian6.png](https://i.postimg.cc/RFNMQ0Vt/Debian6.png)](https://postimg.cc/tZGQ9p6R)
+![Debian6](https://github.com/thla21/Debian/assets/62508225/e13742ce-c064-42c0-a309-c15c4eeda6e7)
 
 No entanto se você recebeu o IP automaticamente irá cair na tela de configuração do “Nome de Máquia:” então clique em Voltar.
 
-[![Debian7.png](https://i.postimg.cc/6pXpJwYs/Debian7.png)](https://postimg.cc/Czcgk33J)
+![Debian7](https://github.com/thla21/Debian/assets/62508225/4e2d50d5-dbd9-4b7a-a7bc-d00c25bc70ac)
 
 ### Configurar a rede manualmente
 
-[![Debian8.png](https://i.postimg.cc/B6kJhGXV/Debian8.png)](https://postimg.cc/PpbGx9bW)
+![Debian8](https://github.com/thla21/Debian/assets/62508225/64ff22f9-0ddb-44d6-8889-5853d99d6100)
 
 Informe **IP/PREFIX**
 
-[![Debian9.png](https://i.postimg.cc/SR9k3t9N/Debian9.png)](https://postimg.cc/GTbWsKzZ)
+![Debian9](https://github.com/thla21/Debian/assets/62508225/dfc4daf1-2962-4b91-aa87-f84d78de3cbe)
 
 ### Gateway
 
-[![Debian10.png](https://i.postimg.cc/SsWBtKys/Debian10.png)](https://postimg.cc/R6ZpW4J5)
+![Debian10](https://github.com/thla21/Debian/assets/62508225/ac4e16fd-31a9-423d-85b1-1803422537d4)
 
 **Servidores DNS** (Separa por espaço para mais de um, máximo 3)
 
-[![Debian11.png](https://i.postimg.cc/CMC0cc1N/Debian11.png)](https://postimg.cc/DmzRZd1J)
+![Debian11](https://github.com/thla21/Debian/assets/62508225/aaa61e69-5b11-4a59-90c2-9fd6f76afca9)
 
 E agora voltamos a tela de **Nome de Máquia**
 
-[![Debian12.png](https://i.postimg.cc/13XZ5PKC/Debian12.png)](https://postimg.cc/MvCLdCNV)
+![Debian12](https://github.com/thla21/Debian/assets/62508225/a1e0870b-1039-4259-a3bb-78aaa6b66d11)
 
 Informe seu domínio se possuir, ou deixe em branco (Se você tiver o DNS reverso configurado ele já trará seu domínio)
 
-[![Debian13.png](https://i.postimg.cc/kXfmmDWR/Debian13.png)](https://postimg.cc/RN681Ssv)
+![Debian13](https://github.com/thla21/Debian/assets/62508225/363237e2-8b93-457a-815c-98cac5bc8b36)
 
 Defina **senha de root (administrador)**
 
-[![Debian14.png](https://i.postimg.cc/JhBVZqvj/Debian14.png)](https://postimg.cc/R39DzcM0)
+![Debian14](https://github.com/thla21/Debian/assets/62508225/02b426bd-a2d8-485b-aa8c-444c0dce5e57)
 
 Informe seu **Nome completo**
 
-[![Debian15.png](https://i.postimg.cc/x1ZVX7x0/Debian15.png)](https://postimg.cc/rD5Pbh2b)
+![Debian15](https://github.com/thla21/Debian/assets/62508225/28315bdb-ed44-4b39-b00e-bfe6cf650f01)
 
 Defina um **nome de usuário**
 
-[![Debian16.png](https://i.postimg.cc/yd4qPRCt/Debian16.png)](https://postimg.cc/Z9cDYCRx)
+![Debian16](https://github.com/thla21/Debian/assets/62508225/56302aaa-41c3-4600-ba5a-df52f0626279)
 
 Defina a **senha deste usuário**
 
-[![Debian17.png](https://i.postimg.cc/KvZ2wt3y/Debian17.png)](https://postimg.cc/F1n8JdxP)
+![Debian17](https://github.com/thla21/Debian/assets/62508225/fd2c81b7-0ee6-4c43-8c7c-c3b0847134c5)
 
 Selecione **seu estado** para a escolha do **fuso horário**
 
-[![Debian18.png](https://i.postimg.cc/MHqCk8TY/Debian18.png)](https://postimg.cc/KkpqLwtK)
+![Debian18](https://github.com/thla21/Debian/assets/62508225/9e75260a-7d5a-4408-ab9d-16f308dabed9)
 
 Chegamos ao particionamento. Aqui vamos ter várias polemicas! Para mim é interessante particionar quando você sabe realmente o que está fazendo, exemplo possuir mais de um disco, ou porejetar que uma partição não destrua o sistema.
 Em VMs sempre instalo da forma automatica, não tem o porque está particionando uma máquina virtual (a não ser mais uma vez que você saiba o que quer), ou até mesmo estar fazendo algum tipo de RAID via software (Sou fã do RAID 10 espelhamento e performasse, mas quase sempre faremos isso lá na controladora, mas nada impede de fazer via software se seu servidor não possui uma controladora). Bom poderia falar um tempão aqui, mas em 90% o metodo “automático” resolve nossos problemas, então bora!
 
 Selecione **Assistido – usar o disco inteiro**
 
-[![Debian19.png](https://i.postimg.cc/4yPrsFHR/Debian19.png)](https://postimg.cc/n9sd1213)
+![Debian19](https://github.com/thla21/Debian/assets/62508225/17ea69df-fe1a-4916-9e5c-d9b10cd87a13)
 
 ### Selecione o Disco
 
-[![Debian20.png](https://i.postimg.cc/jqhVHCg3/Debian20.png)](https://postimg.cc/QVVnsNrc)
+![Debian20](https://github.com/thla21/Debian/assets/62508225/f3637bec-062f-42b3-b85e-ae3ed817e72e)
 
 Selecione **“Todos os arquivos em uma partição (para iniciantes)”**, se você selecionar alguma das outras opções é muito importante que você realmente saiba oq está fazendo!
 
-[![Debian21.png](https://i.postimg.cc/VL73hpcj/Debian21.png)](https://postimg.cc/jL7gw825)
+![Debian21](https://github.com/thla21/Debian/assets/62508225/d841162c-6318-44c5-80e8-ec2bdb76f614)
 
 Finalizar o particionamento **e escrever as mudanças no disco**
 
-[![Debian22.png](https://i.postimg.cc/Dw8t362R/Debian22.png)](https://postimg.cc/G4nMkkTj)
+![Debian22](https://github.com/thla21/Debian/assets/62508225/9f8c91fb-9ccb-4775-a4d1-0db0145d72cb)
 
 ### Sim
 
-[![Debian23.png](https://i.postimg.cc/yY6MvB21/Debian23.png)](https://postimg.cc/NLVC0hgS)
+![Debian23](https://github.com/thla21/Debian/assets/62508225/8f9d3daa-3541-4219-a0ef-6ba50d75b2a4)
 
 Aguarde instalar o sistema básico…
 
-[![Debian24.png](https://i.postimg.cc/KYTwRY3N/Debian24.png)](https://postimg.cc/8F1tYNHJ)
+![Debian24](https://github.com/thla21/Debian/assets/62508225/fd24d709-7462-41ba-802e-7590cce75bc5)
 
 ### Não
 
-[![Debian25.png](https://i.postimg.cc/L8wG9P55/Debian25.png)](https://postimg.cc/dhR5nL8c)
+![Debian25](https://github.com/thla21/Debian/assets/62508225/54dcf0ac-d289-40a4-8674-23f3f8fe9e2b)
 
 ### Brasil
 
-[![Debian26.png](https://i.postimg.cc/sfm8Bqxt/Debian26.png)](https://postimg.cc/XXZxm2w8)
+![Debian26](https://github.com/thla21/Debian/assets/62508225/011b2b60-70d3-458b-9321-110b5b314bf6)
 
 Eu gosto do **deb.debian.org** (mas pode selecionar outro se desejar)
 
-[![Debian27.png](https://i.postimg.cc/4N30pPhn/Debian27.png)](https://postimg.cc/MXhtSy58)
+![Debian27](https://github.com/thla21/Debian/assets/62508225/e1af8f10-47f3-4ec8-82fd-65a5e1ceb1dc)
 
 **Deixe em branco.** Acredito que ninguém mais use proxy, mas se for seu caso informe seu usuário e senha da conexão HTTP.
 
-[![Debian28.png](https://i.postimg.cc/pTYSJ1Z5/Debian28.png)](https://postimg.cc/9R01Wbsc)
+![Debian28](https://github.com/thla21/Debian/assets/62508225/e3adca51-d297-4d42-95b7-979a90a74fa9)
 
 Aguarde enquanto os espelhos (repositórios são lidos) é **fundamental ter internet**, caso contrário irá apresentar erro, e prosseguir a instalação vai deixar seu sistema praticamente “quebrado”.
 
-[![Debian29.png](https://i.postimg.cc/gJP5RPvP/Debian29.png)](https://postimg.cc/KKJJSwq9)
+![Debian29](https://github.com/thla21/Debian/assets/62508225/6d409371-1cf7-4399-8c3c-b6cf28db7882)
 
 **Sim**. É sempre importante ajudar a comunidade a saber quais pacotes estão sendo instalado, isso vai ajudar os desenvolvedores a serem visto pela comunidade Debian e quem sabe aquele pacote legal que você precisa compilar na próxima versão já esteja disponível via repositório.
 
-[![Debian30.png](https://i.postimg.cc/gjgBfX1Y/Debian30.png)](https://postimg.cc/LgZTPXH7)
+![Debian30](https://github.com/thla21/Debian/assets/62508225/f26a2ab7-90b0-4479-b4f6-9b0ab9b90a89)
 
 **ESSE É A PARTE MAIS IMPORTANTE PARA A INSTALAÇÃO LIMPA.**
 Pois não vamos instalar nenhum pacote, e sim apenas o sistema base. O único pacote que é bem provável que você irá precisar é do SSH para fazer o acesso a sua máquina.
