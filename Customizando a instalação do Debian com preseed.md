@@ -42,14 +42,14 @@ O próprio instalador do Debian oferece a opção de carregar o arquivo de prese
 
 Neste caso, assim que a rede é configurada, nós podemos informar a localização do arquivo...
 
-<a href="https://imgbox.com/iu8hBsTM" target="_blank"><img src="https://images2.imgbox.com/a0/a5/iu8hBsTM_o.png" alt="image host"/></a>
+![DebianPressed1](https://github.com/thla21/Debian/assets/62508225/e81d8d9f-8790-45f7-bc54-8e9ddf725e15)
 
-<a href="https://imgbox.com/20M0tlp0" target="_blank"><img src="https://images2.imgbox.com/93/1f/20M0tlp0_o.png" alt="image host"/></a>
+![DebianPressed2](https://github.com/thla21/Debian/assets/62508225/80a175f8-2c74-44f3-90d9-0aa43f5dffe2)
 
 Ainda com o instalador, teclando `ESC` no menu, nós temos acesso às opções de boot, onde é possível informar a localização do arquivo de preseed.
 Por exemplo.
 
-<a href="https://imgbox.com/hY0MPHi3" target="_blank"><img src="https://images2.imgbox.com/36/b6/hY0MPHi3_o.png" alt="image host"/></a>
+![DebianPressed3](https://github.com/thla21/Debian/assets/62508225/17c5bf02-97ba-4d2e-9030-29e31fc592dd)
 
 A principal limitação do preseeding está no particionamento:
 
@@ -70,55 +70,55 @@ A melhor forma de começar um arquivo de preseed é editando as opções de um a
 
 Idioma, país e layout do teclado
 
-<a href="https://imgbox.com/rTLMou9S" target="_blank"><img src="https://images2.imgbox.com/9f/4a/rTLMou9S_o.png" alt="image host"/></a>
+![DebianPressed4](https://github.com/thla21/Debian/assets/62508225/afc432d7-f722-444b-a572-27f282095c02)
 
 Padronizar o domínio e o nome da máquina (hostname)
 
-<a href="https://imgbox.com/lTTLBqhn" target="_blank"><img src="https://images2.imgbox.com/91/9f/lTTLBqhn_o.png" alt="image host"/></a>
+![DebianPressed5](https://github.com/thla21/Debian/assets/62508225/1dace669-311a-4d19-a9f7-df0349dcd73f)
 
 As definições de **hostname** e **domínio** feitas pelo **DHCP** têm precedência sobre as configurações acima, mas elas servem para que as perguntas desta etapa não sejam feitas.
 
 Configuração do espelho
 
-<a href="https://imgbox.com/OxJl6qvy" target="_blank"><img src="https://images2.imgbox.com/cd/29/OxJl6qvy_o.png" alt="image host"/></a>
+![DebianPressed6](https://github.com/thla21/Debian/assets/62508225/087b1c9c-57cc-4268-8d62-844504e1080a)
 
 Saltar a etapa onde é pedida a senha de root
 
-<a href="https://imgbox.com/JCJ9rJYF" target="_blank"><img src="https://images2.imgbox.com/3a/22/JCJ9rJYF_o.png" alt="image host"/></a>
+![DebianPressed7](https://github.com/thla21/Debian/assets/62508225/18f25bb6-1f05-4653-b926-f20c1c2bf029)
 
 Habilitar repositórios non-free e contrib
 
-<a href="https://imgbox.com/1Vwu0HNW" target="_blank"><img src="https://images2.imgbox.com/b7/a5/1Vwu0HNW_o.png" alt="image host"/></a>
+![DebianPressed8](https://github.com/thla21/Debian/assets/62508225/f25f3b23-aa60-4773-b13f-c8090cbe04cc)
 
 Estas opções **não habilitam esses repositórios no sistema instalado**, elas são utilizadas apenas pelo instalador.
 
 Desativar a etapa de seleção de espelhos
 
-<a href="https://imgbox.com/rv6jWuTN" target="_blank"><img src="https://images2.imgbox.com/92/10/rv6jWuTN_o.png" alt="image host"/></a>
+![DebianPressed9](https://github.com/thla21/Debian/assets/62508225/0da51c74-4598-4ebe-80f3-3ab4be1c97f7)
 
 Desativar a pergunta sobre outras mídias de instalação
 
-<a href="https://imgbox.com/hbI8XuJo" target="_blank"><img src="https://images2.imgbox.com/ec/65/hbI8XuJo_o.png" alt="image host"/></a>
+![DebianPressed10](https://github.com/thla21/Debian/assets/62508225/f6f3741d-0f79-49b3-ba12-951fa5296945)
 
 Repositórios adicionais ('local' pode ser de 0 a 9)
 
-<a href="https://imgbox.com/9DWqUyMP" target="_blank"><img src="https://images2.imgbox.com/cd/ad/9DWqUyMP_o.png" alt="image host"/></a>
+![DebianPressed11](https://github.com/thla21/Debian/assets/62508225/b3369424-41d4-491e-9b0f-45e549e46069)
 
 Opções do `tasksel`
 
-<a href="https://imgbox.com/NBdFP7aL" target="_blank"><img src="https://images2.imgbox.com/0c/e0/NBdFP7aL_o.png" alt="image host"/></a>
+![DebianPressed12](https://github.com/thla21/Debian/assets/62508225/6c59b60a-89ae-41dd-be04-7125f2955db8)
 
 Pacotes a serem incluídos na instalação (ex.: instalação i3wm)
 
-<a href="https://imgbox.com/rLktyAuM" target="_blank"><img src="https://images2.imgbox.com/9f/40/rLktyAuM_o.png" alt="image host"/></a>
+![DebianPressed13](https://github.com/thla21/Debian/assets/62508225/80a0f5d5-de9b-4efa-8bd0-939b8944bd47)
 
 Pesquisa de popularidade (predefinindo o “sim”)
 
-<a href="https://imgbox.com/OjtudVBx" target="_blank"><img src="https://images2.imgbox.com/99/b8/OjtudVBx_o.png" alt="image host"/></a>
+![DebianPressed14](https://github.com/thla21/Debian/assets/62508225/24d11a8e-ed49-417d-88e3-fb0081ca0bcf)
 
 Comando de pós instalação (uma única linha de comando!)
 
-<a href="https://imgbox.com/taGJ7iwy" target="_blank"><img src="https://images2.imgbox.com/ea/b1/taGJ7iwy_o.png" alt="image host"/></a>
+![DebianPressed15](https://github.com/thla21/Debian/assets/62508225/5b0d600e-cbf3-48d8-b3e0-148bde7b5d65)
 
 ## Customizando a instalação do Debian com preseed
 
@@ -128,7 +128,7 @@ Etapas de modificação da imagem de instalação
 
 Etapa 1 - Verificar as dependências
 
-<a href="https://imgbox.com/qo4KrSeV" target="_blank"><img src="https://images2.imgbox.com/ee/72/qo4KrSeV_o.png" alt="image host"/></a>
+![DebianPressed16](https://github.com/thla21/Debian/assets/62508225/5a7db039-6332-44c7-9731-e038cf60e89c)
 
 Etapa 2 - Extrair conteúdo da imagem
 
