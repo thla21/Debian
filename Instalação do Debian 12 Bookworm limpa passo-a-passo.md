@@ -167,33 +167,33 @@ Aguarde enquanto os espelhos (repositórios são lidos) é **fundamental ter int
 Pois não vamos instalar nenhum pacote, e sim apenas o sistema base. O único pacote que é bem provável que você irá precisar é do SSH para fazer o acesso a sua máquina.
 Essa instalação é recomendada para servidores! Agora se você está fazendo essa instalação com intuito de usar alguma interface gráfica faça sua escolha e prossiga.
 
-[![Debian31.png](https://i.postimg.cc/XqjzHcHH/Debian31.png)](https://postimg.cc/njW2M7tB)
+![Debian31](https://github.com/thla21/Debian/assets/62508225/42ba24af-2a51-44b4-9705-605be5f944f0)
 
-[![Debian32.png](https://i.postimg.cc/g2XBT0sW/Debian32.png)](https://postimg.cc/tsb51p8S)
+![Debian32](https://github.com/thla21/Debian/assets/62508225/0be23edb-2496-41f7-a732-89a7db7cbd31)
 
 Grub: **Sim** Se não fica sem dar boot.
 
-[![Debian33.png](https://i.postimg.cc/fRGgnhq0/Debian33.png)](https://postimg.cc/k2yyKLmn)
+![Debian33](https://github.com/thla21/Debian/assets/62508225/ed39a355-9ee1-4fe3-9d82-ff51682307d8)
 
 Seleciona o disco qual sera configurado o GRUB (Sem ele o sistema não inicia! Normalmente /dev/sda)
 
-[![Debian34.png](https://i.postimg.cc/3R7SNFT8/Debian34.png)](https://postimg.cc/rdnCYWs3)
+![Debian34](https://github.com/thla21/Debian/assets/62508225/5ed26715-9d88-412d-a2ed-41bea89a9bfb)
 
 Aguarde a finalização
 
-[![Debian35.png](https://i.postimg.cc/Tw9kD5dr/Debian35.png)](https://postimg.cc/1n8cxtNt)
+![Debian35](https://github.com/thla21/Debian/assets/62508225/faed7ae9-c2a2-42cf-b404-5fb5ad0901b8)
 
 Continuar para reiniciar
 
-[![Debian36.png](https://i.postimg.cc/tJv2r0VJ/Debian36.png)](https://postimg.cc/JHJNn2xC)
+![Debian36](https://github.com/thla21/Debian/assets/62508225/47170d7f-1f97-4e47-953f-b5abcf29e51b)
 
 Iremos ver nossa tela do GRUB (Aqui você pode selecionar um kernel anteiro instalado caso o atual apresentar algum problema…, entre recuperar até mesmo a senha de root)
 
-[![Debian37.png](https://i.postimg.cc/1X3vcRXb/Debian37.png)](https://postimg.cc/tZ8d9jhz)
+![Debian37](https://github.com/thla21/Debian/assets/62508225/a03c0335-410f-4fc1-8afd-9326f357b3b2)
 
 E por fim chegamos a tela de login. Nesta tela você pode logar com usuário root diretamente.
 
-[![Debian38.png](https://i.postimg.cc/66Mj6Z1K/Debian38.png)](https://postimg.cc/5jFqnXVK)
+![Debian38](https://github.com/thla21/Debian/assets/62508225/2883817e-8389-4505-bd8b-07c27d5cc316)
 
 Faça um SSH para o IP do seu servidor, se você não sabe qual o IP basta na tela anterior logar e digitar o comando:
 
@@ -201,7 +201,7 @@ Faça um SSH para o IP do seu servidor, se você não sabe qual o IP basta na te
 ip -c address
 ```
 
-[![Debian39.png](https://i.postimg.cc/c46DvJVn/Debian39.png)](https://postimg.cc/F75bqhFr)
+![Debian39](https://github.com/thla21/Debian/assets/62508225/236a823c-cdc8-4e9b-b9f8-3a04e2a97c13)
 
 No meu caso meu ip é o 172.18.18.18, irei logar com o usuário remontti (que criei na instalação) e não com root, por padrão de segurança o SSH vem com a opção que não permite que você logue com usuário root, então use o usuário “comum” da sua instalação para logar. OBS: Não seja ignorante de ir trocar as configurações do SSH e permitir o root logar (Isso me deixa P, tem várias formas de você contornar!)
 Então do meu PC acesso e em seguida viro root com **su-** exemplo:
@@ -210,7 +210,7 @@ Então do meu PC acesso e em seguida viro root com **su-** exemplo:
 ssh 172.18.18.18 -p 22
 ```
 
-[![Debian40.png](https://i.postimg.cc/vBQhb8rD/Debian40.png)](https://postimg.cc/mc5CSs6G)
+![Debian40](https://github.com/thla21/Debian/assets/62508225/dddd1e9c-411f-48d8-b726-ba34a6654eec)
 
 Se desejar configurar o repositório non-free e contrib, para isso basta editar o arquivo /etc/apt/sources.list **(Recomendo)**
 
@@ -220,7 +220,7 @@ nano /etc/apt/sources.list
 
 Agora adicione ao final de cada repositório> `contrib non-free` como na imagem:
 
-[![Debian41.png](https://i.postimg.cc/mr3jv1F0/Debian41.png)](https://postimg.cc/rdm5WmjJ)
+![Debian41](https://github.com/thla21/Debian/assets/62508225/0adf6079-78d7-43d2-99f7-07fb15fdaa60)
 
 Saia usando CRTL + X, em seguida atualize as informações do repositório com o comando:
 
